@@ -37,3 +37,21 @@ This project fine-tunes a quantized **Mistral-7B-Instruct** model using **LoRA**
 ## 📈 Output Location
 
 - Fine-tuned checkpoints are saved to:  **./leader_bot_model/**
+
+---
+
+## 🧰 Tools and Environment
+
+    Jupyter Notebook: For writing and executing Python code during the training process.
+
+    Python 3.11
+
+    PyTorch: Deep learning framework used for model building and training.
+
+    Hugging Face Transformers: For model architecture and tokenizer support.
+
+    Datasets library: For dataset loading and handling.
+
+    Accelerate and PEFT: For optimizing and fine-tuning large language models.
+
+    bitsandbytes: For memory-efficient training (quantization support).
